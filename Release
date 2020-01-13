@@ -1,0 +1,19 @@
+Origin: Cydia
+Label: Cydia 
+Suite: stable
+Version: 2.9
+Codename: fcahtests 
+Architectures: iphoneos-arm
+Components: main
+Description: Cydia edit
+MD5Sum:
+ 5460781ef1352047129654dd4dbc5aea 2233 Packages
+ 15296c6857d27197444da20e8aac3d3a 1129 Packages.bz2
+ ac2670b251ff646d8cc8c6b8f7f94e3e 1012 Packages.gz
+ b52d9616197b39da5d0d094ba46d8675 1088 Packages.xz
+SHA256:
+ 452f6d55815f3fcf4d17c82d44e05be7793369ce86b4da1ed5d03bef090e6ab0 2233 Packages
+ 441a6f1aad60ded3abb2cac8d8c00aa338e702b65b19bcfe3123eb26e7b51824 1129 Packages.bz2
+ 91a0ce188010561d4f96705f785e4f3421eb98f4e8da788ec1d419194e72f79a 1012 Packages.gz
+ 4dea531225b5b47508fd3e0222a71939164eb7fb4a7eefc1d769014b7e85b5c3 1088 Packages.xz
+
