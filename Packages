@@ -9,9 +9,9 @@ Conflicts: bigboss, com.sosiphone.addcydia, ispazio.net, modmyifone, ste, yellow
 Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd, cydia-gui
 Filename: debs/cydia.deb
 Size: 1292112
-MD5sum: 3c7a5d0b4577ad5b743f7038beca08f2
-SHA1: 56cbff88e496ea89d8ac5a157b10fdd6609ef269
-SHA256: 634e88f9e5e66edbafd477b8d2da28be585594274175211ac7832d0b38f5f892
+MD5sum: 8d00b170ca27d13f0db9170868663f26
+SHA1: 4864aea4373722bf3d8fc852575ca0bb602fa7b5
+SHA256: 015e937b205344fafe720c6395db573f86001814dd88a47ccb6c5a597730a168
 Section: Packaging
 Priority: optional
 Description: graphical iPhone front-end for APT
