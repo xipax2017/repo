@@ -1,5 +1,5 @@
 body {
-font-family: Segoe UI;
+    font-family: SF Pro AR,SF Pro Gulf,SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
 .grid-container {
@@ -102,14 +102,12 @@ background-image: url(https://i0.wp.com/apps4iphone.net/wp-content/uploads/2019/
 }
 #note .text{
     z-index: 1;
-    font-family: Segoe UI;
     font-weight: bold;
     font-size: 35px;
     color: rgb(255, 255, 255); 
 }
 #note .small{
     z-index: 1;
-    font-family: Segoe UI;
     font-weight: 400;
     font-size: 18px;
     color: rgb(255, 255, 255); 
@@ -117,7 +115,6 @@ background-image: url(https://i0.wp.com/apps4iphone.net/wp-content/uploads/2019/
 }
 #note .small2{
     z-index: 1;
-    font-family: Segoe UI;
     font-weight: 400;
     font-size: 18px;
     color: rgb(255, 255, 255); 
