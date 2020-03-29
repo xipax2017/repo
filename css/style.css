@@ -1,0 +1,105 @@
+body {
+    background-color: #f5f7fa;
+    text-rendering: optimizeLegibility!important;
+    -webkit-font-smoothing: antialiased!important;
+    font-family: system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,-apple-system-font,Helvetica Neue;
+}
+
+
+.signed false{
+      display: grid;
+  grid-template-columns: auto auto;
+  background-color: #2196F3;
+  padding: 0px;
+    
+}
+
+.text-white {
+    color: #007aff;
+    font-size: 15px;
+    font-weight: 500
+    
+}
+blockquote, dd, dl, figure, h1, h2, h3, h4, h5, h6, p, pre {
+    margin: 0;
+}
+span{
+    display: block;
+    color: aliceblue;
+    font-size: 10px;
+    font-weight: 500;
+}
+.w-full {
+    margin: 0.90rem;
+    overflow: hidden;
+    color: rgba(50,60,71,.4);
+/*background-image: linear-gradient(90deg,#49d6b5,#00a8af);*/
+    background-color: #007bff1a;
+    /*box-shadow: 0 4px 16px 0 rgba(0,0,0,.06);*/
+    border-radius: 12px;
+    padding: .75rem;
+}
+.p-3 {
+    padding: .75rem;
+}
+.flex {
+    display: -webkit-box;
+    display: flex;
+}
+.info{
+    color: #48484a;
+    font-size: 10px;
+    font-weight: 500;
+}
+.true {
+        margin: 0.90rem;
+    overflow: hidden;
+    color: rgba(50,60,71,.4);
+/*background-image: linear-gradient(90deg,#49d6b5,#00a8af);*/
+    background-color: #c9f9eb;
+    /*box-shadow: 0 4px 16px 0 rgba(0,0,0,.06);*/
+    border-radius: 12px;
+    padding: .75rem;
+
+}
+.true .imgg {
+/*
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flat_tick_icon.svg/1024px-Flat_tick_icon.svg.png");
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    margin-right: 8px;
+    margin-top: 1px;*/
+        color: #29e2bc;
+    font-size: 20px;
+        margin-right: 8px;
+    margin-top: -3px;
+}
+.false{
+            margin: 0.90rem;
+    overflow: hidden;
+    color: rgba(50,60,71,.4);
+/*background-image: linear-gradient(90deg,#49d6b5,#00a8af);*/
+    background-color: #ff2d551a;
+    /*box-shadow: 0 4px 16px 0 rgba(0,0,0,.06);*/
+    border-radius: 12px;
+    padding: .75rem;
+}
+.false .text-white{
+    color: #ff375f;
+}
+.false .imgg {
+
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/c9/Exclamation_flat_icon.svg");
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    margin-right: 8px;
+    margin-top: 1px;
+}
+
+.home p{
+    font-size: 35px;
+    padding: 18px;
+    font-weight: 600;
+}
