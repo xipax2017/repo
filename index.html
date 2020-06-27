@@ -10,16 +10,24 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>iPhone</title>
 <link rel="stylesheet" href="css/dark.css">
-
+<link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="https://kit-pro.fontawesome.com/releases/v5.13.0/css/pro.min.css">
 
 
 <body>
 	<div id="list">
-<div id="Features">
+            <div class="wall" style="padding: 20px">
+        <div id="note">
+                <span class="small">Welcome to</span>
+    <span class="text">Cydia</span>
+
+    <span class="small2">by Jay Freeman (saurik) 2020</span>
+            </div>
+    </div>
+<div id="Features" style="display: none">
 		<span>Features</span>
 	</div>
-<div id="home">
+<div id="home" style="display: none">
     <div class="wall">
         <div id="note">
                 <span class="small">Welcome to</span>
@@ -31,16 +39,14 @@
         </div>
 <div class="grid-container">
   <div class="c1">
-    <span class="c11"><i class="fas fa-desktop"></i>Themes</span>
-       <span>test</span>
-    </div>
+    <span class="c11"><i class="fas fa-desktop"></i>Themes</span>    </div>
   <div class="c2">
         <span class="c22"><i class="fas fa-star"></i>Featured</span>
        <span>test</span>
     
     </div>
       <div class="c3">
-    <span>test</span>
+        <span class="c22"><i class="fas fa-book-open"></i>Featured</span>
        <span>test</span>
     </div>
   <div class="c4">
@@ -49,15 +55,14 @@
     
     </div>
 </div>
+  <div class="beta">
+    <span class="c11"><i class="far fa-question-circle"></i>Information</span>    
+        </div>
+  <div class="beta">
+    <span class="c11"><i class="fas fa-desktop"></i>uesr</span>    </div>
+<button onclick="myFunction()">Toggle dark mode</button>
 
-<p>Set the <em>display</em> property to <em>grid</em> to make a block-level grid container.</p>
-
-
-	</div>
-
-	
-	
-	<script>
+<script>
 function myFunction() {
    var element = document.body;
    element.classList.toggle("dark-mode");

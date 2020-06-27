@@ -1,105 +1,156 @@
 body {
-    background-color: #f5f7fa;
-    text-rendering: optimizeLegibility!important;
-    -webkit-font-smoothing: antialiased!important;
-    font-family: system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,-apple-system-font,Helvetica Neue;
+    font-family: SF Pro AR,SF Pro Gulf,SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+        transition: .2s;
+    background-color: #f0eff5;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns:  auto auto;
 
-.signed false{
-      display: grid;
-  grid-template-columns: auto auto;
-  background-color: #2196F3;
-  padding: 0px;
+}
+
+.c1 {
+    background-color: #fff;/*
+background-image: linear-gradient(-90deg, #a4adff, #8390ff);
+filter: drop-shadow(0px 3px 12px rgba(94, 168, 255, 0.502));*/
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+        height: 4em;
+
+}
+.c1 span.c11{
+    font-weight: 700;
+    color: black;
     
 }
+.beta {
+    background-color: #fff;/*
+background-image: linear-gradient(-90deg, #a4adff, #8390ff);
+filter: drop-shadow(0px 3px 12px rgba(94, 168, 255, 0.502));*/
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+        height: 4em;
 
-.text-white {
-    color: #007aff;
-    font-size: 15px;
-    font-weight: 500
+}
+.beta span.c11{
+    font-weight: 700;
+    color: black;
     
 }
-blockquote, dd, dl, figure, h1, h2, h3, h4, h5, h6, p, pre {
-    margin: 0;
+.c2{
+    background-color: #fff;/*
+    background-image: linear-gradient(-90deg, #88c9ff, #5aa5ff);
+    filter: drop-shadow(0px 3px 12px rgba(94, 168, 255, 0.502));*/
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+        height: 4em;
+
+}
+.c2 span.c22{
+    font-weight: 700;
+    color: black;
+    
+}
+.c3{
+    background-color: #fff;/*
+background-image: linear-gradient(-90deg, #fa9cf0, #f16edd);
+    filter: drop-shadow(0px 3px 12px rgba(242, 115, 223, 0.502));*/
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+        height: 4em;
+
+}
+.c4{
+    background-color: #fff;/*
+background-image: linear-gradient(-90deg, #f58383, #ef5756);
+    filter: drop-shadow(0px 3px 12px rgba(239, 90, 90, 0.502));*/
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+        height: 4em;
+    
+
 }
 span{
     display: block;
-    color: aliceblue;
-    font-size: 10px;
-    font-weight: 500;
 }
-.w-full {
-    margin: 0.90rem;
-    overflow: hidden;
-    color: rgba(50,60,71,.4);
-/*background-image: linear-gradient(90deg,#49d6b5,#00a8af);*/
-    background-color: #007bff1a;
-    /*box-shadow: 0 4px 16px 0 rgba(0,0,0,.06);*/
-    border-radius: 12px;
-    padding: .75rem;
-}
-.p-3 {
-    padding: .75rem;
-}
-.flex {
-    display: -webkit-box;
-    display: flex;
-}
-.info{
-    color: #48484a;
-    font-size: 10px;
-    font-weight: 500;
-}
-.true {
-        margin: 0.90rem;
-    overflow: hidden;
-    color: rgba(50,60,71,.4);
-/*background-image: linear-gradient(90deg,#49d6b5,#00a8af);*/
-    background-color: #c9f9eb;
-    /*box-shadow: 0 4px 16px 0 rgba(0,0,0,.06);*/
-    border-radius: 12px;
-    padding: .75rem;
+#Features {
 
-}
-.true .imgg {
-/*
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flat_tick_icon.svg/1024px-Flat_tick_icon.svg.png");
-    width: 20px;
-    height: 20px;
-    background-size: cover;
-    margin-right: 8px;
-    margin-top: 1px;*/
-        color: #29e2bc;
-    font-size: 20px;
-        margin-right: 8px;
-    margin-top: -3px;
-}
-.false{
-            margin: 0.90rem;
-    overflow: hidden;
-    color: rgba(50,60,71,.4);
-/*background-image: linear-gradient(90deg,#49d6b5,#00a8af);*/
-    background-color: #ff2d551a;
-    /*box-shadow: 0 4px 16px 0 rgba(0,0,0,.06);*/
-    border-radius: 12px;
-    padding: .75rem;
-}
-.false .text-white{
-    color: #ff375f;
-}
-.false .imgg {
-
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/c9/Exclamation_flat_icon.svg");
-    width: 20px;
-    height: 20px;
-    background-size: cover;
-    margin-right: 8px;
-    margin-top: 1px;
-}
-
-.home p{
+    font-weight: bold;
     font-size: 35px;
-    padding: 18px;
-    font-weight: 600;
+    margin: 10px;
+        margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+#home{/*
+background-image: url(https://www.setaswall.com/wp-content/uploads/2019/06/Apple-iOS-13-Stock-Wallpaper-01-1242x2208-768x1365.jpg);*/
+    margin: 10px;
+    border-radius: 10px;
+    background-size: cover;
+    padding: 25px;
+    display: flex;
+    align-items: flex-end;
+    min-height: 140px;
+    margin-bottom: 2em;
+    position: relative;
+    overflow: hidden;
+}
+#home .wall:before {/*
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.9));
+    opacity: .7;
+    transition: opacity .15s ease-out;*/
+}
+#note{
+    z-index: 1;
+    flex-grow: 1;
+    color: #333;
+    position: relative;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#note .text{
+    z-index: 1;
+    font-weight: bold;
+    font-size: 35px;
+    color: rgb(255, 255, 255); 
+    color: black;
+}
+#note .small{
+    z-index: 1;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(255, 255, 255); 
+    color: #222222;
+    
+}
+#note .small2{
+    z-index: 1;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(255, 255, 255); 
+    color: #222222;
+    
+}
+.c11 i{
+    font-size: 20px;
+    color: #8a8a8a;
+    float: right;
+}
+.c22 i{
+    font-size: 20px;
+    color: #8a8a8a;
+    float: right;
 }

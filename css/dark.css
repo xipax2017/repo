@@ -1,53 +1,74 @@
-body {
-    font-family: SF Pro AR,SF Pro Gulf,SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
-}
+
 
 .grid-container {
   display: grid;
   grid-template-columns:  auto auto;
 
 }
+.dark-mode {
+  background-color: black;
 
-.c1 {
+}
+.dark-mode .c1 {
+    background-color: #222222;/*
 background-image: linear-gradient(-90deg, #a4adff, #8390ff);
-filter: drop-shadow(0px 3px 12px rgba(94, 168, 255, 0.502));
+filter: drop-shadow(0px 3px 12px rgba(94, 168, 255, 0.502));*/
     margin: 10px;
     padding: 10px;
     border-radius: 8px;
         height: 4em;
 
 }
-.c1 span.c11{
+.dark-mode .c1 span.c11{
     font-weight: 700;
     color: white;
     
 }
-.c2{
+.dark-mode .beta {
+    background-color: #222222;/*
+background-image: linear-gradient(-90deg, #a4adff, #8390ff);
+filter: drop-shadow(0px 3px 12px rgba(94, 168, 255, 0.502));*/
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+        height: 4em;
+
+}
+.dark-mode .beta span.c11{
+    font-weight: 700;
+    color: white;
+    
+}
+
+.dark-mode .c2{
+    background-color: #222222;/*
     background-image: linear-gradient(-90deg, #88c9ff, #5aa5ff);
-    filter: drop-shadow(0px 3px 12px rgba(94, 168, 255, 0.502));
+    filter: drop-shadow(0px 3px 12px rgba(94, 168, 255, 0.502));*/
     margin: 10px;
     padding: 10px;
     border-radius: 8px;
         height: 4em;
 
 }
-.c2 span.c22{
+.dark-mode .c2 span.c22{
     font-weight: 700;
     color: white;
     
 }
-.c3{
+.dark-mode .c3{
+    background-color: #222222;/*
 background-image: linear-gradient(-90deg, #fa9cf0, #f16edd);
-    filter: drop-shadow(0px 3px 12px rgba(242, 115, 223, 0.502));
+    filter: drop-shadow(0px 3px 12px rgba(242, 115, 223, 0.502));*/
     margin: 10px;
     padding: 10px;
     border-radius: 8px;
         height: 4em;
 
 }
-.c4{
+.dark-mode .c4{
+    background-color: #222222;/*
 background-image: linear-gradient(-90deg, #f58383, #ef5756);
-    filter: drop-shadow(0px 3px 12px rgba(239, 90, 90, 0.502));
+    filter: drop-shadow(0px 3px 12px rgba(239, 90, 90, 0.502));*/
     margin: 10px;
     padding: 10px;
     border-radius: 8px;
@@ -58,17 +79,18 @@ background-image: linear-gradient(-90deg, #f58383, #ef5756);
 span{
     display: block;
 }
-#Features {
+.dark-mode #Features {
 
     font-weight: bold;
     font-size: 35px;
     margin: 10px;
         margin-bottom: 1em;
     margin-top: 1em;
+    color: white;
 }
 
-#home{
-background-image: url(https://i0.wp.com/apps4iphone.net/wp-content/uploads/2019/06/348475-1280-3.jpg?fit=1280%2C1280&ssl=1);
+#home{ /*
+background-image: url(https://i0.wp.com/apps4iphone.net/wp-content/uploads/2019/06/348475-1280-3.jpg?fit=1280%2C1280&ssl=1);*/
     margin: 10px;
     border-radius: 10px;
     background-size: cover;
@@ -80,7 +102,7 @@ background-image: url(https://i0.wp.com/apps4iphone.net/wp-content/uploads/2019/
     position: relative;
     overflow: hidden;
 }
-#home .wall:before {
+#home .wall:before {/*
     content: "";
     display: block;
     position: absolute;
@@ -90,7 +112,7 @@ background-image: url(https://i0.wp.com/apps4iphone.net/wp-content/uploads/2019/
     left: 0;
     background: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.9));
     opacity: .7;
-    transition: opacity .15s ease-out;
+    transition: opacity .15s ease-out;**/
 }
 #note{
     z-index: 1;
@@ -100,33 +122,33 @@ background-image: url(https://i0.wp.com/apps4iphone.net/wp-content/uploads/2019/
     overflow: hidden;
     text-overflow: ellipsis;
 }
-#note .text{
+.dark-mode #note .text{
     z-index: 1;
     font-weight: bold;
     font-size: 35px;
     color: rgb(255, 255, 255); 
 }
-#note .small{
+.dark-mode #note .small{
     z-index: 1;
     font-weight: 400;
     font-size: 18px;
     color: rgb(255, 255, 255); 
     
 }
-#note .small2{
+.dark-mode #note .small2{
     z-index: 1;
     font-weight: 400;
     font-size: 18px;
     color: rgb(255, 255, 255); 
     
 }
-.c11 i{
+.dark-mode .c11 i{
     font-size: 20px;
-    color: white;
+    color: #e4e3e2;
     float: right;
 }
-.c22 i{
+.dark-mode .c22 i{
     font-size: 20px;
-    color: white;
+    color: #e4e3e2;
     float: right;
 }
