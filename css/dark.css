@@ -6,17 +6,17 @@
 
 }
 .dark-mode {
-  background-color: black;
+  background-color: #000;
 
 }
 .dark-mode .c1 {
-    background-color: #222222;/*
+    background-color: #000;/*
 background-image: linear-gradient(-90deg, #a4adff, #8390ff);
 filter: drop-shadow(0px 3px 12px rgba(94, 168, 255, 0.502));*/
-    margin: 10px;
+    margin-right: 5px;
     padding: 10px;
     border-radius: 8px;
-        height: 4em;
+    height: 9em;
 
 }
 .dark-mode .c1 span.c11{
@@ -25,7 +25,7 @@ filter: drop-shadow(0px 3px 12px rgba(94, 168, 255, 0.502));*/
     
 }
 .dark-mode .beta {
-    background-color: #222222;/*
+    background-color: #333333;/*
 background-image: linear-gradient(-90deg, #a4adff, #8390ff);
 filter: drop-shadow(0px 3px 12px rgba(94, 168, 255, 0.502));*/
     margin: 10px;
@@ -41,13 +41,13 @@ filter: drop-shadow(0px 3px 12px rgba(94, 168, 255, 0.502));*/
 }
 
 .dark-mode .c2{
-    background-color: #222222;/*
+    background-color: #000;/*
     background-image: linear-gradient(-90deg, #88c9ff, #5aa5ff);
     filter: drop-shadow(0px 3px 12px rgba(94, 168, 255, 0.502));*/
-    margin: 10px;
+    margin-left: 10px;
     padding: 10px;
     border-radius: 8px;
-        height: 4em;
+    height: 9em;
 
 }
 .dark-mode .c2 span.c22{
@@ -150,5 +150,34 @@ background-image: url(https://i0.wp.com/apps4iphone.net/wp-content/uploads/2019/
 .dark-mode .c22 i{
     font-size: 20px;
     color: #e4e3e2;
+    float: right;
+}
+.dark-mode .mode {
+    background-image: url(https://cdn4.iconfinder.com/data/icons/music-ui-solid-24px/24/sun_light_mode_day-2-128.png);
+    height: 30px;
+    background-size: contain;
+    width: 30px;
+    float: right;
+    margin: 10px;
+}
+.dark-mode #back{
+    padding: 18px;
+    border-radius: 12px;
+    margin: 10px;
+    height: 330px;/*
+    background-size: cover;
+    background: linear-gradient(150deg, #f7ad98 10%, #f642b9 70%);
+    filter: drop-shadow(1px 10px 10px rgba(24, 24, 75));*/
+    background-color: #333333;
+
+}
+.dark-mode .back1{
+    
+    font-weight: 700;
+    color: white;
+}
+.dark-mode .back1 i{
+    font-size: 20px;
+    color: #fff;
     float: right;
 }
