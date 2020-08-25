@@ -11,6 +11,8 @@
 <title>iPhone</title>
 <link rel="stylesheet" href="css/font.css">
 <link rel="stylesheet" href="css/dark.css">
+    <link href="//db.onlinewebfonts.com/c/1c45e28f8e86cc89876f003b953cc3e9?family=SF+Pro+Text" rel="stylesheet" type="text/css"/>
+    <link href="//db.onlinewebfonts.com/c/1c45e28f8e86cc89876f003b953cc3e9?family=SF+Pro+Text" rel="stylesheet" type="text/css"/>
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="https://kit-pro.fontawesome.com/releases/v5.13.0/css/pro.min.css">
 
@@ -41,7 +43,10 @@
             </div>
     </div>
         </div>
-              <div id="back">
+        
+        
+        
+<div id="back">
     <span class="back1"><i class="far fa-question-circle"></i></span>  
         <span class="small"></span>
     <span class="text"></span>
@@ -63,34 +68,39 @@
 </div>
                   </div>
         </div>
+
+    <p id="app"></p>
+<script>
+//getData function
+
+//Using javascript ES5 function 
+            
+fetch('https://xipax2017.github.io/LGN1yS14uqdrE-bQg73NFu96rRgjhhQ4lh8xCSnDakA-/json.json')
+    .then(function (res) {
+        return res.json();
+    })
+    .then(function (data) {
+        let result = ``;
+        data.forEach((apps) => {
+            const {  type, seller, ver, size, icon, link1, bundle_id, name, id } = apps
+            result +=
+`
 <div class="beta">
-  <img src="https://vectorified.com/images/app-icon-template-ai-14.jpg" class="mr-3" alt="...">
+  <img src="${icon}" class="mr-3" alt="...">
   <div class="beta-body">
-    <h5 class="bt-1"></h5>
-      <h5 class="bt-2"></h5>
-            <h5 class="bt-3"></h5>
+    <p class="bt-1">${name}</p>
+      <a href="http://c491z583.pushrcdn.com/strg/8/${id}.ipa" class="butget">GET</a>
+      <p class="bt-2">${seller} (${ver}) </p>
+            <p class="bt-3">${size}</p>
 
     </div>
-</div>
-<div class="beta">
-  <img src="https://vectorified.com/images/app-icon-template-ai-14.jpg" class="mr-3" alt="...">
-  <div class="beta-body">
-    <h5 class="bt-1"></h5>
-      <h5 class="bt-2"></h5>
-            <h5 class="bt-3"></h5>
+</div>`;
 
-    </div>
-</div>
-<div class="beta">
-  <img src="https://vectorified.com/images/app-icon-template-ai-14.jpg" class="mr-3" alt="...">
-  <div class="beta-body">
-    <h5 class="bt-1"></h5>
-      <h5 class="bt-2"></h5>
-            <h5 class="bt-3"></h5>
 
-    </div>
-</div>
-
+            document.getElementById('app').innerHTML = result;
+        });
+       })
+  </script>
 
 <script>
 function myFunction() {
